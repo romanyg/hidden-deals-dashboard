@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListingsTable from "./ListingsTable";
 
-const API_URL = "http://localhost:3000/api/listings";
+const API_URL = "/api/listings";
 
 export default function App() {
   const [listings, setListings] = useState([]);
