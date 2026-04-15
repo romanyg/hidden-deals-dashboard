@@ -13,7 +13,7 @@ export default function App() {
       .catch(() => {
         // fallback mock
         setListings([
-          { title: "Mock House", price: "350,000", location: "Cairo" }
+          { title: "Mock House", price: "350,000", location: "Cairo", link: "https://example.com"}
         ]);
       });
   }, []);

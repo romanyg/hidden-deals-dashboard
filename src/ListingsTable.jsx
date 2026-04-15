@@ -49,6 +49,7 @@ export default function ListingsTable({ data }) {
             <th>Title</th>
             <th>Price</th>
             <th>Location</th>
+            <th>link</th>
           </tr>
         </thead>
         <tbody>
@@ -56,7 +57,8 @@ export default function ListingsTable({ data }) {
             <tr key={i}>
               <td>{item.title}</td>
               <td>{item.price}</td>
-              <td>{item.location || "N/A"}</td>
+              <td>{item.location}</td>
+              <td>{item.link}</td>
             </tr>
           ))}
         </tbody>
